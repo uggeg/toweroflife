@@ -7,13 +7,12 @@ version '1.0-SNAPSHOT'
 
 repositories {
     mavenCentral()
+    google()
+    maven { url = 'https://repo.repsy.io/mvn/const/pow' }
 }
 
 dependencies {
-    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.1'
-    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.1'
-}
-
-test {
-    useJUnitPlatform()
+    implementation('org.powbot:client-sdk:1.0.0-SNAPSHOT')
+    implementation('org.powbot:client-sdk-loader:1.0.0-SNAPSHOT')
+    implementation('com.google.guava:guava:31.1-jre')
 }
