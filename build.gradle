@@ -14,6 +14,6 @@ repositories {
 
 dependencies {
     implementation('org.powbot:client-sdk:1.0.10-SNAPSHOT')
-    implementation('org.powbot:client-sdk-loader:1.0.0-SNAPSHOT')
+    implementation('org.powbot:client-sdk-loader:1.0.10-SNAPSHOT')
     implementation('com.google.guava:guava:31.1-jre')
 }
